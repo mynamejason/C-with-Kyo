@@ -19,5 +19,7 @@ private:
 	void displayBoard();
 	void generateBoard();
 	bool sameThree(int one, int two, int three);
-	
+	Player player1_;
+	Player player2_;
 };
+#endif

@@ -18,7 +18,6 @@ public:
 private:
 	std::string name_;
 	std::string mark_;
-	int age_;
 };
 
 #endif
