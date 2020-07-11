@@ -1,0 +1,10 @@
+﻿  TicTacToe.cpp
+D:\C++\TicTacToe\TicTacToe.cpp(17,31): warning C4018: '<': signed/unsigned mismatch
+D:\C++\TicTacToe\TicTacToe.cpp(80,27): warning C4018: '<': signed/unsigned mismatch
+D:\C++\TicTacToe\TicTacToe.cpp(89,27): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+D:\C++\TicTacToe\TicTacToe.cpp(17,31): warning C4018: '<': signed/unsigned mismatch
+D:\C++\TicTacToe\TicTacToe.cpp(80,27): warning C4018: '<': signed/unsigned mismatch
+D:\C++\TicTacToe\TicTacToe.cpp(89,27): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  TicTacToe.vcxproj -> D:\C++\TicTacToe\Debug\TicTacToe.exe
