@@ -4,16 +4,19 @@
 Player::Player() {
 	name_ = "";
 	mark_ = "";
+	age_ = 10;
 }
 
 Player::~Player() {
 	name_ = "";
 	mark_ = "";
+	age_ = 0;
 }
 
-Player::Player(std::string& name, std::string& mark) {
+Player::Player(std::string& name, std::string& mark, int &age) {
 	name_ = name;
 	mark_ = mark;
+	age_ = age;
 }
 
 std::string Player::getName() const {
