@@ -23,7 +23,24 @@ Checker::Checker(Player& player1, Player& player2) {
 }
 
 void Checker::placeMark(int spot) {
+	std::string mark = "";
+	if (isFirstPlayerTurn_) {
+		std::cout << player1_.getName();
+		mark = "O";
+	}
+	else {
+		mark = "X";
+		std::cout << player2_.getName();
+	}
+	std::cout << "'s turn" << std::endl;
 
+	if (board_[spot - 1] == " ") {
+		board_[spot - 1] = mark;
+		isFirstPlayerTurn_ = !isFirstPlayerTurn_;
+	}
+	else {
+		std::cout << "This space is occupied." << std::endl;
+	}
 }
 
 bool Checker::winner() {

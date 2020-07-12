@@ -14,4 +14,7 @@ int main()
 {
     Checker myChecker;
     myChecker.displayBoard();
+    int userInput = 0;
+    cin >> userInput;
+    myChecker.placeMark(userInput);
 }
