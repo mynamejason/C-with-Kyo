@@ -1,7 +1,7 @@
-#ifndef player_hpp
-#define player_hpp
+#ifndef Player_hpp
+#define Player_hpp
 
-#include "player.hpp"
+#include "Player.hpp"
 #include <vector>
 #include <string>
 #include <iostream>

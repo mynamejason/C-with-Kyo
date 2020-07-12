@@ -24,7 +24,7 @@
     <ClCompile Include="player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="checking.cpp">
+    <ClCompile Include="Checker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,7 +32,7 @@
     <ClInclude Include="player.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="checking.hpp">
+    <ClInclude Include="Checker.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
