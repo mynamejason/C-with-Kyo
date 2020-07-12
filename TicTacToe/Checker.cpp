@@ -24,6 +24,7 @@ Checker::Checker(Player& player1, Player& player2) {
 
 void Checker::placeMark(int spot) {
 	std::string mark = "";
+	std::cout << "'s turn" << std::endl;
 	if (isFirstPlayerTurn_) {
 		std::cout << player1_.getName();
 		mark = "O";
@@ -32,11 +33,11 @@ void Checker::placeMark(int spot) {
 		mark = "X";
 		std::cout << player2_.getName();
 	}
-	std::cout << "'s turn" << std::endl;
 
 	if (board_[spot - 1] == " ") {
 		board_[spot - 1] = mark;
 		isFirstPlayerTurn_ = !isFirstPlayerTurn_;
+		displayBoard();
 	}
 	else {
 		std::cout << "This space is occupied." << std::endl;
