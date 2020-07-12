@@ -1,10 +1,19 @@
-﻿  TicTacToe.cpp
-D:\C++\TicTacToe\TicTacToe.cpp(17,31): warning C4018: '<': signed/unsigned mismatch
-D:\C++\TicTacToe\TicTacToe.cpp(80,27): warning C4018: '<': signed/unsigned mismatch
-D:\C++\TicTacToe\TicTacToe.cpp(89,27): warning C4018: '<': signed/unsigned mismatch
+﻿  player.cpp
+D:\C++\Github\C-with-Kyo\TicTacToe\player.cpp(16,64): error C2511: 'Player::Player(std::string &,std::string &,int &)': overloaded member function not found in 'Player'
+D:\C++\Github\C-with-Kyo\TicTacToe\Player.hpp(9): message : see declaration of 'Player'
+D:\C++\Github\C-with-Kyo\TicTacToe\player.cpp(17,2): error C2597: illegal reference to non-static member 'Player::name_'
+D:\C++\Github\C-with-Kyo\TicTacToe\player.cpp(18,2): error C2597: illegal reference to non-static member 'Player::mark_'
+D:\C++\Github\C-with-Kyo\TicTacToe\player.cpp(19,2): error C2597: illegal reference to non-static member 'Player::age_'
+  Checker.cpp
+D:\C++\Github\C-with-Kyo\TicTacToe\Checker.hpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  TicTacToe.cpp
+D:\C++\Github\C-with-Kyo\TicTacToe\TicTacToe.cpp(17,31): warning C4018: '<': signed/unsigned mismatch
+D:\C++\Github\C-with-Kyo\TicTacToe\TicTacToe.cpp(80,27): warning C4018: '<': signed/unsigned mismatch
+D:\C++\Github\C-with-Kyo\TicTacToe\TicTacToe.cpp(89,27): warning C4018: '<': signed/unsigned mismatch
   main.cpp
-D:\C++\TicTacToe\TicTacToe.cpp(17,31): warning C4018: '<': signed/unsigned mismatch
-D:\C++\TicTacToe\TicTacToe.cpp(80,27): warning C4018: '<': signed/unsigned mismatch
-D:\C++\TicTacToe\TicTacToe.cpp(89,27): warning C4018: '<': signed/unsigned mismatch
+D:\C++\Github\C-with-Kyo\TicTacToe\TicTacToe.cpp(17,31): warning C4018: '<': signed/unsigned mismatch
+D:\C++\Github\C-with-Kyo\TicTacToe\TicTacToe.cpp(80,27): warning C4018: '<': signed/unsigned mismatch
+D:\C++\Github\C-with-Kyo\TicTacToe\TicTacToe.cpp(89,27): warning C4018: '<': signed/unsigned mismatch
+D:\C++\Github\C-with-Kyo\TicTacToe\Checker.hpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   Generating Code...
-  TicTacToe.vcxproj -> D:\C++\TicTacToe\Debug\TicTacToe.exe
+D:\C++\Github\C-with-Kyo\TicTacToe\main.cpp(11): error C4716: 'getUserName': must return a value
