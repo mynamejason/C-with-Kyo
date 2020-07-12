@@ -13,9 +13,10 @@ public:
 	Checker(Player& player1, Player& player2);
 	void placeMark(int spot);
 	bool winner();
+	void displayBoard();
 
 private:
-	void displayBoard();
+	
 	void generateBoard();
 	bool sameThree(int one, int two, int three);
 

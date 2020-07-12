@@ -1,7 +1,7 @@
-#ifndef Player_hpp
-#define Player_hpp
+#ifndef player_hpp
+#define player_hpp
 
-#include "Player.hpp"
+#include "player.hpp"
 #include <vector>
 #include <string>
 #include <iostream>
@@ -10,7 +10,7 @@ class Player {
 public:
 	Player();
 	~Player();
-	Player(std::string& name, std::string& mark);
+	Player(std::string& name, std::string& mark, int& age);
 
 	std::string getMark() const;
 	std::string getName() const;

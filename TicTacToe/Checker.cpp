@@ -46,3 +46,19 @@ bool Checker::winner() {
 	else 
 		return false;
 }
+
+void Checker::displayBoard() {
+	for (int row = 0; row < 9; row += 3) {
+		for (int col = row; col < row + 3; col++) {
+			std::cout << "[" << board_[col] << "]";
+		}
+		std::cout << std::endl;
+	}
+}
+
+bool Checker::sameThree(int one, int two, int three) {
+	if (one == two && two == three && one == three) {
+		return true;
+	}
+	return false;
+}

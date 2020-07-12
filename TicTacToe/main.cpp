@@ -1,16 +1,17 @@
 #include <iostream>
 #include <string>
-#include "TicTacToe.cpp"
 #include "Checker.hpp"
-#include "Player.hpp"
+#include "player.hpp"
 
 using namespace std;
 
-string getUserName(string player) {
+/*string getUserName(string player) {
     
 }
+*/
 
 int main()
 {
-    
+    Checker myChecker;
+    myChecker.displayBoard();
 }

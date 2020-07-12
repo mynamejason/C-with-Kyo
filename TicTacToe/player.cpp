@@ -1,5 +1,5 @@
 #include <string>
-#include "Player.hpp"
+#include "player.hpp"
 
 Player::Player() {
 	name_ = "";
