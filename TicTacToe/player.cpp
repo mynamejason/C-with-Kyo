@@ -4,7 +4,7 @@
 Player::Player() {
 	name_ = "";
 	mark_ = "";
-	age_ = 10;
+	age_ = 0;
 }
 
 Player::~Player() {

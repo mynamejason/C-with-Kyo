@@ -57,7 +57,7 @@ void Checker::displayBoard() {
 }
 
 bool Checker::sameThree(int one, int two, int three) {
-	if (one == two && two == three && one == three) {
+	if (one == two == three) {
 		return true;
 	}
 	return false;
