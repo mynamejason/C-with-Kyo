@@ -1,0 +1,5 @@
+1. all the branch names are lower case.
+2. no spaces are allowed. 
+3. class name will start with Upper
+4. function name will start with lower
+5. member values have "_"
