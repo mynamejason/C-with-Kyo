@@ -1,5 +1,4 @@
 #ifndef Checker_hpp
-
 #define Checker_hpp
 
 #include "Player.hpp";
@@ -19,6 +18,10 @@ private:
 	void displayBoard();
 	void generateBoard();
 	bool sameThree(int one, int two, int three);
-	
+
+	Player player1_;
+	Player player2_;
+	std::vector<std::string> board_;
+	bool isFirstPlayerTurn_;
 };
 #endif
