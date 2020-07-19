@@ -32,8 +32,25 @@ int main()
     Player player2(playerName2, marker2, age2);
 
     Checker myChecker(player1, player2);
-    myChecker.displayBoard();
+
+    //First turn
+    bool gameLoop = true;
     int userInput = 0;
+    myChecker.displayBoard();
+    cout << player1.getName() << "'s turn: ";
     cin >> userInput;
     myChecker.placeMark(userInput);
+
+    while (gameLoop) {
+        if (!myChecker.hasWinner()) {
+            cin >> userInput;
+            myChecker.placeMark(userInput);
+            cout << myChecker.hasWinner() << endl;
+            if (myChecker.hasWinner()) {
+                cout << "Winner!" << endl;
+                gameLoop = false;
+            }
+        }
+    }
+    
 }
