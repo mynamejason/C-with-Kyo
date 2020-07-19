@@ -43,12 +43,12 @@ void Checker::placeMark(int spot) {
 
 		board_[spot - 1] = mark;
 		generateBoard(spot, mark);
-		
+		/*
 		for (int i = 0; i < 9; i++) {
 			std::cout << secretBoard_[i];
 		}
 		std::cout << std::endl;
-
+		*/
 		isFirstPlayerTurn_ = !isFirstPlayerTurn_;
 		displayBoard();
 	}
@@ -58,7 +58,7 @@ void Checker::placeMark(int spot) {
 	}
 }
 
-bool Checker::winner() {
+bool Checker::hasWinner() {
 	if (sameThree(0, 1, 2))
 		return true;
 	else if (sameThree(0, 3, 6)) 
@@ -91,15 +91,15 @@ void Checker::displayBoard() {
 //Private:
 void Checker::generateBoard(int spot, std::string mark) {
 	if (mark == "O") {
-		secretBoard_[spot - 1] = 0;
+		secretBoard_[spot - 1] = -1; //avoid 0 and 1 for if-conditions
 	}
 	else if (mark == "X") {
-		secretBoard_[spot - 1] = 1;
+		secretBoard_[spot - 1] = -2;
 	}
 }
 
 bool Checker::sameThree(int first, int second, int third) {
-	if (secretBoard_[first] == secretBoard_[second] == secretBoard_[third]) {
+	if ((secretBoard_[first] == secretBoard_[second]) && secretBoard_[second] == secretBoard_[third]) {
 		return true;
 	}
 	return false;

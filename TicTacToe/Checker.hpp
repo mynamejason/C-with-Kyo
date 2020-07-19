@@ -12,7 +12,7 @@ public:
 	~Checker();
 	Checker(Player& player1, Player& player2);
 	void placeMark(int spot);
-	bool winner();
+	bool hasWinner();
 	void displayBoard();
 
 private:

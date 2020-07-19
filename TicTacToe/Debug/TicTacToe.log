@@ -1,3 +1,6 @@
-﻿  main.cpp
+﻿  Checker.cpp
 D:\C++\Github\C-with-Kyo\TicTacToe\Checker.hpp(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  main.cpp
+D:\C++\Github\C-with-Kyo\TicTacToe\Checker.hpp(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
   TicTacToe.vcxproj -> D:\C++\Github\C-with-Kyo\TicTacToe\Debug\TicTacToe.exe

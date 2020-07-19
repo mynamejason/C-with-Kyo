@@ -42,16 +42,15 @@ int main()
     myChecker.placeMark(userInput);
 
     while (gameLoop) {
-        if (!myChecker.winner()) {
+        if (!myChecker.hasWinner()) {
             cin >> userInput;
             myChecker.placeMark(userInput);
-            myChecker.winner();
+            cout << myChecker.hasWinner() << endl;
+            if (myChecker.hasWinner()) {
+                cout << "Winner!" << endl;
+                gameLoop = false;
+            }
         }
-        else {
-            cout << "Winner!" << endl;
-            gameLoop = false;
-        }
-
     }
-
+    
 }
