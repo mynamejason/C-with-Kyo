@@ -21,4 +21,5 @@ private:
 	int age_;
 };
 
+#include "player.cpp"
 #endif

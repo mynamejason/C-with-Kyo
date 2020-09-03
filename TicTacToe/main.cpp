@@ -5,11 +5,6 @@
 
 using namespace std;
 
-/*string getUserName(string player) {
-    
-}
-*/
-
 int main()
 {
     string playerName1 = "";
