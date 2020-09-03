@@ -1,7 +1,7 @@
 #ifndef Checker_hpp
 #define Checker_hpp
 
-#include "Player.hpp";
+#include "Player.hpp"
 #include <vector>
 #include <string>
 #include <iostream>
@@ -25,4 +25,6 @@ private:
 	std::vector<int> secretBoard_;
 	bool isFirstPlayerTurn_;
 };
+
+#include "Checker.cpp"
 #endif

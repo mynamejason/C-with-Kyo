@@ -1,4 +1,4 @@
-/*
+
 #include <iostream>
 #include <vector>
 
@@ -126,4 +126,3 @@ private:
     std::vector<int> board_;
     std::vector<int> possibleNumbers_;
 };
-*/
